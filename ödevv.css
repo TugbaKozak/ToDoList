@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #FFCAC8;
+    font-family:'linoscript';
+    cursor: url('https://www.hizliresim.com/ekcw4dl') !important;
+   
+}
+   
+
+.container{
+   width: 100%;
+   text-align: center;
+   margin-top: 100px;
+}
+
+
+#title{
+   text-align: center;
+   font-size: 70px;
+   border-style:3px solid #FED049;
+   color:#810CA8;
+   font-family: 'linoscript' ;
+   
+}
+
+
+#inputText{
+   width: 300px;
+   height: 46px;
+   border: 1px solid #FF597B;
+   outline: none;
+   font-size: 35px;
+   vertical-align: middle;
+   border: 3px solid #FF597B;
+   border-radius: 15px;
+   color:#810CA8;
+   font-family:'linoscript' ;
+   margin-bottom: 20px;
+}
+   
+   
+#addToDo{
+    height: 45px;
+    width: 80px;
+    border: 1px solid #3D5656;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: #68B984;
+    color: #CFFDE1;
+    text-align: center;
+    border-radius: 28px; /*10*/
+}
+
+
+#addToDo:active{
+    background: #22A39F;
+    color:#FED049;
+}
+
+
+#clearToDo{
+    height: 45px;
+    width: 100px;
+    border: 1px solid #BD574E;
+    vertical-align: middle;
+    font-size: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color:#EF4B4B;
+    color: #F2E3C9;
+    text-align: center;
+    border-radius: 28px;
+}
+
+
+#clearToDo:active{
+    background-color: #F46060;
+}
+   
+
+.paragraph-styling{
+
+    height: 40px !important;
+    margin:0 !important;
+    cursor: pointer;
+    font-size: 30px;
+    color: #810CA8;
+    text-transform: capitalize;
+    font-family:'linoscript' ;
+
+}
+   
+
+.to-dos{
+    margin: top 25px;
+    background-image:url('ka2.png');
+    background-repeat:repeat-y;
+    background-size:cover 25px 100px;
+    background-position: center;
+}
